@@ -1,0 +1,341 @@
+{
+    "data": {
+        "behavior": {
+            "v": "2",
+            "nodes": [
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Always",
+                    "behaviorType": "logic.triggers.Always",
+                    "x": -450,
+                    "y": -48,
+                    "group": "",
+                    "id": "13f1d81c97684a49"
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 1,
+                    "name": "Number",
+                    "behaviorType": "logic.logic.Value",
+                    "x": -270,
+                    "y": -48,
+                    "group": "",
+                    "id": "13f1d81c5cae1d4c",
+                    "startVal": 20,
+                    "tag": "X*Y",
+                    "roundMode": 1
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 3,
+                    "name": "Size",
+                    "behaviorType": "logic.properties.Scale",
+                    "x": -90,
+                    "y": -32,
+                    "group": "",
+                    "id": "13f1d81cb78bcd4d"
+                },
+                {
+                    "inputCount": 4,
+                    "outputCount": 0,
+                    "name": "animations",
+                    "behaviorType": "logic.NodeGroup",
+                    "x": -270,
+                    "y": 80,
+                    "group": "",
+                    "id": "13f1d81cd51d2b44",
+                    "isMenuItem": false,
+                    "originBundleId": null,
+                    "ownBundleId": null,
+                    "originPk": null,
+                    "v": 2,
+                    "version": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Bundle Input",
+                    "behaviorType": "logic.NodeGroupInput",
+                    "x": -540,
+                    "y": -144,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81ce1fb414c",
+                    "portId": "13f1d81cd51d2b44i0",
+                    "tag": "up",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Bundle Input",
+                    "behaviorType": "logic.NodeGroupInput",
+                    "x": -540,
+                    "y": -32,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81ca4765048",
+                    "portId": "13f1d81cd51d2b44i1",
+                    "tag": "down",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Bundle Input",
+                    "behaviorType": "logic.NodeGroupInput",
+                    "x": -540,
+                    "y": 80,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81c8189fb42",
+                    "portId": "13f1d81cd51d2b44i2",
+                    "tag": "left",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Bundle Input",
+                    "behaviorType": "logic.NodeGroupInput",
+                    "x": -540,
+                    "y": 192,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81cc28cd542",
+                    "portId": "13f1d81cd51d2b44i3",
+                    "tag": "right",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 3,
+                    "name": "Animation",
+                    "behaviorType": "logic.properties.Animation",
+                    "x": -360,
+                    "y": -160,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81cf89a2548",
+                    "animationName": "up",
+                    "loop": false,
+                    "playAll": false,
+                    "priority": 0,
+                    "lastFrameSticky": false
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 3,
+                    "name": "Animation",
+                    "behaviorType": "logic.properties.Animation",
+                    "x": -360,
+                    "y": -32,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81ce625244f",
+                    "animationName": "down",
+                    "loop": false,
+                    "playAll": false,
+                    "priority": 0,
+                    "lastFrameSticky": false
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 3,
+                    "name": "Animation",
+                    "behaviorType": "logic.properties.Animation",
+                    "x": -360,
+                    "y": 80,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81c33a13647",
+                    "animationName": "left",
+                    "loop": false,
+                    "playAll": false,
+                    "priority": 0,
+                    "lastFrameSticky": false
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 3,
+                    "name": "Animation",
+                    "behaviorType": "logic.properties.Animation",
+                    "x": -360,
+                    "y": 192,
+                    "group": "13f1d81cd51d2b44",
+                    "id": "13f1d81cbf25d24b",
+                    "animationName": "right",
+                    "loop": false,
+                    "playAll": false,
+                    "priority": 0,
+                    "lastFrameSticky": false
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 4,
+                    "name": "arrows pressed",
+                    "behaviorType": "logic.NodeGroup",
+                    "x": -450,
+                    "y": 80,
+                    "group": "",
+                    "id": "13f1d81c3bb06043",
+                    "isMenuItem": false,
+                    "originBundleId": null,
+                    "ownBundleId": null,
+                    "originPk": null,
+                    "v": 2,
+                    "version": 2
+                },
+                {
+                    "inputCount": 1,
+                    "outputCount": 0,
+                    "name": "Bundle Output",
+                    "behaviorType": "logic.NodeGroupOutput",
+                    "x": -630,
+                    "y": -144,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81caeeb7d49",
+                    "portId": "13f1d81c3bb06043o0",
+                    "tag": "w",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 1,
+                    "outputCount": 0,
+                    "name": "Bundle Output",
+                    "behaviorType": "logic.NodeGroupOutput",
+                    "x": -630,
+                    "y": -48,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81c801a4440",
+                    "portId": "13f1d81c3bb06043o1",
+                    "tag": "s",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 1,
+                    "outputCount": 0,
+                    "name": "Bundle Output",
+                    "behaviorType": "logic.NodeGroupOutput",
+                    "x": -630,
+                    "y": 48,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81c39d1394e",
+                    "portId": "13f1d81c3bb06043o2",
+                    "tag": "a",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 1,
+                    "outputCount": 0,
+                    "name": "Bundle Output",
+                    "behaviorType": "logic.NodeGroupOutput",
+                    "x": -630,
+                    "y": 144,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81c93db6b48",
+                    "portId": "13f1d81c3bb06043o3",
+                    "tag": "d",
+                    "dataType": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 2,
+                    "name": "Keyboard",
+                    "behaviorType": "logic.triggers.Keyboard",
+                    "x": -810,
+                    "y": -160,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81c86c7df4d",
+                    "keyCode": 38
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 2,
+                    "name": "Keyboard",
+                    "behaviorType": "logic.triggers.Keyboard",
+                    "x": -810,
+                    "y": -64,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81cceb52f4c",
+                    "keyCode": 40
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 2,
+                    "name": "Keyboard",
+                    "behaviorType": "logic.triggers.Keyboard",
+                    "x": -810,
+                    "y": 32,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81c25630f4e",
+                    "keyCode": 37
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 2,
+                    "name": "Keyboard",
+                    "behaviorType": "logic.triggers.Keyboard",
+                    "x": -810,
+                    "y": 128,
+                    "group": "13f1d81c3bb06043",
+                    "id": "13f1d81c31f85a45",
+                    "keyCode": 39
+                }
+            ],
+            "links": [
+                {
+                    "input_id": "13f1d81c5cae1d4ci1",
+                    "output_id": "13f1d81c97684a49o0"
+                },
+                {
+                    "input_id": "13f1d81cb78bcd4di0",
+                    "output_id": "13f1d81c5cae1d4co0"
+                },
+                {
+                    "input_id": "13f1d81cd51d2b44i0",
+                    "output_id": "13f1d81c3bb06043o0"
+                },
+                {
+                    "input_id": "13f1d81cd51d2b44i1",
+                    "output_id": "13f1d81c3bb06043o1"
+                },
+                {
+                    "input_id": "13f1d81cd51d2b44i2",
+                    "output_id": "13f1d81c3bb06043o2"
+                },
+                {
+                    "input_id": "13f1d81cd51d2b44i3",
+                    "output_id": "13f1d81c3bb06043o3"
+                },
+                {
+                    "input_id": "13f1d81cf89a2548i0",
+                    "output_id": "13f1d81ce1fb414co0"
+                },
+                {
+                    "input_id": "13f1d81ce625244fi0",
+                    "output_id": "13f1d81ca4765048o0"
+                },
+                {
+                    "input_id": "13f1d81c33a13647i0",
+                    "output_id": "13f1d81c8189fb42o0"
+                },
+                {
+                    "input_id": "13f1d81cbf25d24bi0",
+                    "output_id": "13f1d81cc28cd542o0"
+                },
+                {
+                    "input_id": "13f1d81caeeb7d49i0",
+                    "output_id": "13f1d81c86c7df4do0"
+                },
+                {
+                    "input_id": "13f1d81c801a4440i0",
+                    "output_id": "13f1d81cceb52f4co0"
+                },
+                {
+                    "input_id": "13f1d81c39d1394ei0",
+                    "output_id": "13f1d81c25630f4eo0"
+                },
+                {
+                    "input_id": "13f1d81c93db6b48i0",
+                    "output_id": "13f1d81c31f85a45o0"
+                }
+            ],
+            "frames": []
+        }
+    }
+}
