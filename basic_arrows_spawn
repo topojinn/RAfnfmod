@@ -1,0 +1,211 @@
+{
+    "data": {
+        "behavior": {
+            "v": "2",
+            "nodes": [
+                {
+                    "inputCount": 0,
+                    "outputCount": 0,
+                    "name": "attaccher",
+                    "behaviorType": "logic.NodeGroup",
+                    "x": -360,
+                    "y": -32,
+                    "group": "",
+                    "id": "13f1d821c186044d",
+                    "isMenuItem": false,
+                    "originBundleId": null,
+                    "ownBundleId": null,
+                    "originPk": null,
+                    "v": 2,
+                    "version": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Always",
+                    "behaviorType": "logic.triggers.Always",
+                    "x": -90,
+                    "y": 96,
+                    "group": "13f1d821c186044d",
+                    "id": "13f1d821ca90ba48"
+                },
+                {
+                    "inputCount": 4,
+                    "outputCount": 2,
+                    "name": "Attacher",
+                    "behaviorType": "logic.components.Attachment",
+                    "x": 90,
+                    "y": 48,
+                    "group": "13f1d821c186044d",
+                    "id": "13f1d821d676ab42",
+                    "entityClassId": 24962930,
+                    "rotate": false,
+                    "oX": 0,
+                    "oY": 0,
+                    "pin": false,
+                    "v": 2,
+                    "version": 2
+                },
+                {
+                    "inputCount": 1,
+                    "outputCount": 1,
+                    "name": "Alpha",
+                    "behaviorType": "logic.properties.Alpha",
+                    "x": 270,
+                    "y": 208,
+                    "group": "13f1d821c186044d",
+                    "id": "13f1d821ab847449"
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 1,
+                    "name": "Number",
+                    "behaviorType": "logic.logic.Value",
+                    "x": 90,
+                    "y": 192,
+                    "group": "13f1d821c186044d",
+                    "id": "13f1d821fb0a654f",
+                    "startVal": 0,
+                    "roundMode": 1
+                },
+                {
+                    "inputCount": 2,
+                    "outputCount": 4,
+                    "name": "Router",
+                    "behaviorType": "logic.logic.Router",
+                    "x": -180,
+                    "y": -192,
+                    "group": "",
+                    "id": "13f1d8213a4b0647",
+                    "loop": true,
+                    "routes": 4,
+                    "mode": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Once",
+                    "behaviorType": "logic.triggers.Once",
+                    "x": -540,
+                    "y": -176,
+                    "group": "",
+                    "id": "13f1d821ef923f41",
+                    "resetOnLevelStart": false
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 2,
+                    "name": "Timer",
+                    "behaviorType": "logic.triggers.Timer",
+                    "x": -360,
+                    "y": -192,
+                    "group": "",
+                    "id": "13f1d82191d3a443",
+                    "delay": 20,
+                    "count": 0,
+                    "v": 3,
+                    "version": 3
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 1,
+                    "name": "Spawn",
+                    "behaviorType": "logic.components.Spawn2",
+                    "x": 90,
+                    "y": -368,
+                    "group": "",
+                    "id": "13f1d82116e4a646",
+                    "entityClassId": 24981182,
+                    "spawnX": 285,
+                    "spawnY": 136
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 1,
+                    "name": "Spawn",
+                    "behaviorType": "logic.components.Spawn2",
+                    "x": 90,
+                    "y": -256,
+                    "group": "",
+                    "id": "13f1d821503f6645",
+                    "entityClassId": 24981172,
+                    "spawnX": 285,
+                    "spawnY": 136
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 1,
+                    "name": "Spawn",
+                    "behaviorType": "logic.components.Spawn2",
+                    "x": 90,
+                    "y": -128,
+                    "group": "",
+                    "id": "13f1d821888b0b42",
+                    "entityClassId": 24981173,
+                    "spawnX": 285,
+                    "spawnY": 136
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 1,
+                    "name": "Spawn",
+                    "behaviorType": "logic.components.Spawn2",
+                    "x": 90,
+                    "y": 0,
+                    "group": "",
+                    "id": "13f1d821740e9e47",
+                    "entityClassId": 24981177,
+                    "spawnX": 285,
+                    "spawnY": 136
+                }
+            ],
+            "links": [
+                {
+                    "input_id": "13f1d82191d3a443i2",
+                    "output_id": "13f1d821ef923f41o0"
+                },
+                {
+                    "input_id": "13f1d8213a4b0647i0",
+                    "output_id": "13f1d82191d3a443o0"
+                },
+                {
+                    "input_id": "13f1d8213a4b0647i1",
+                    "output_id": "13f1d82191d3a443o0"
+                },
+                {
+                    "input_id": "13f1d82116e4a646i2",
+                    "output_id": "13f1d8213a4b0647o0"
+                },
+                {
+                    "input_id": "13f1d821503f6645i2",
+                    "output_id": "13f1d8213a4b0647o1"
+                },
+                {
+                    "input_id": "13f1d821888b0b42i2",
+                    "output_id": "13f1d8213a4b0647o2"
+                },
+                {
+                    "input_id": "13f1d821740e9e47i2",
+                    "output_id": "13f1d8213a4b0647o3"
+                },
+                {
+                    "input_id": "13f1d821d676ab42i0",
+                    "output_id": "13f1d821ca90ba48o0"
+                },
+                {
+                    "input_id": "13f1d821d676ab42i2",
+                    "output_id": "13f1d821ca90ba48o0"
+                },
+                {
+                    "input_id": "13f1d821d676ab42i3",
+                    "output_id": "13f1d821ca90ba48o0"
+                },
+                {
+                    "input_id": "13f1d821ab847449i0",
+                    "output_id": "13f1d821fb0a654fo0"
+                }
+            ],
+            "frames": []
+        }
+    }
+}
