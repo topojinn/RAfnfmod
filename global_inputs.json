@@ -1,0 +1,181 @@
+{
+    "data": {
+        "behavior": {
+            "v": "2",
+            "nodes": [
+                {
+                    "inputCount": 2,
+                    "outputCount": 2,
+                    "name": "Router",
+                    "behaviorType": "logic.logic.Router",
+                    "x": -360,
+                    "y": -528,
+                    "group": "",
+                    "id": "141273261e1dba48",
+                    "loop": true,
+                    "routes": 2,
+                    "mode": 1
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 2,
+                    "name": "Keyboard",
+                    "behaviorType": "logic.triggers.Keyboard",
+                    "x": -540,
+                    "y": -528,
+                    "group": "",
+                    "id": "141273266e2a1c40",
+                    "keyCode": 70
+                },
+                {
+                    "inputCount": 5,
+                    "outputCount": 5,
+                    "name": "Full Screen",
+                    "behaviorType": "logic.components.FullScreen",
+                    "x": -180,
+                    "y": -528,
+                    "group": "",
+                    "id": "141273262d177845",
+                    "smIdx": 2
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 1,
+                    "name": "Once",
+                    "behaviorType": "logic.triggers.Once",
+                    "x": -540,
+                    "y": -64,
+                    "group": "",
+                    "id": "141273267ba63545",
+                    "resetOnLevelStart": false
+                },
+                {
+                    "inputCount": 3,
+                    "outputCount": 1,
+                    "name": "Number",
+                    "behaviorType": "logic.logic.Value",
+                    "x": -360,
+                    "y": -64,
+                    "group": "",
+                    "id": "141273267e99254c",
+                    "startVal": 0,
+                    "roundMode": 1
+                },
+                {
+                    "inputCount": 1,
+                    "outputCount": 1,
+                    "name": "Alpha",
+                    "behaviorType": "logic.properties.Alpha",
+                    "x": -180,
+                    "y": -48,
+                    "group": "",
+                    "id": "1412732654738647"
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 2,
+                    "name": "Keyboard",
+                    "behaviorType": "logic.triggers.Keyboard",
+                    "x": -540,
+                    "y": -384,
+                    "group": "",
+                    "id": "14127326088c9a46",
+                    "keyCode": 27
+                },
+                {
+                    "inputCount": 2,
+                    "outputCount": 2,
+                    "name": "Pause",
+                    "behaviorType": "logic.gameflow.Pause",
+                    "x": -180,
+                    "y": -400,
+                    "group": "",
+                    "id": "141273260eb1994c"
+                },
+                {
+                    "comp_x": 173,
+                    "comp_y": 137,
+                    "inputCount": 2,
+                    "outputCount": 1,
+                    "name": "Alert",
+                    "behaviorType": "logic.hud.Alert",
+                    "x": -360,
+                    "y": -336,
+                    "group": "",
+                    "id": "141273262567f447",
+                    "header": "game paused ",
+                    "message": "",
+                    "buttonLabel": "resume",
+                    "bgColor": 2105376,
+                    "btnColor": 6710886,
+                    "textColor": 13421772
+                },
+                {
+                    "inputCount": 0,
+                    "outputCount": 2,
+                    "name": "Keyboard",
+                    "behaviorType": "logic.triggers.Keyboard",
+                    "x": -540,
+                    "y": -208,
+                    "group": "",
+                    "id": "1412732632161247",
+                    "keyCode": 82
+                },
+                {
+                    "inputCount": 2,
+                    "outputCount": 2,
+                    "name": "LoadLevel",
+                    "behaviorType": "logic.gameflow.NextLevel",
+                    "x": -360,
+                    "y": -224,
+                    "group": "",
+                    "id": "14127326d480de49",
+                    "levelId": 5144045
+                }
+            ],
+            "links": [
+                {
+                    "input_id": "141273261e1dba48i0",
+                    "output_id": "141273266e2a1c40o0"
+                },
+                {
+                    "input_id": "141273261e1dba48i1",
+                    "output_id": "141273266e2a1c40o0"
+                },
+                {
+                    "input_id": "141273262d177845i0",
+                    "output_id": "141273261e1dba48o0"
+                },
+                {
+                    "input_id": "141273262d177845i1",
+                    "output_id": "141273261e1dba48o1"
+                },
+                {
+                    "input_id": "141273267e99254ci1",
+                    "output_id": "141273267ba63545o0"
+                },
+                {
+                    "input_id": "1412732654738647i0",
+                    "output_id": "141273267e99254co0"
+                },
+                {
+                    "input_id": "141273260eb1994ci0",
+                    "output_id": "14127326088c9a46o0"
+                },
+                {
+                    "input_id": "141273262567f447i0",
+                    "output_id": "14127326088c9a46o0"
+                },
+                {
+                    "input_id": "141273260eb1994ci1",
+                    "output_id": "141273262567f447o0"
+                },
+                {
+                    "input_id": "14127326d480de49i0",
+                    "output_id": "1412732632161247o0"
+                }
+            ],
+            "frames": []
+        }
+    }
+}
